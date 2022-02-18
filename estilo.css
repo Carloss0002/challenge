@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+/*====FONTS====*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+header{
+    margin-top: 50px;
+}
+header img{
+    margin-left: 50px;
+
+}
+h1, h2{
+    font-family: 'Poppins', sans-serif;
+}
+#imgCentro{
+    background: url(images/screen-mockups.svg) no-repeat;
+    background-position: center;
+    width: 1035px;
+    height: 739px;
+}
+.btn{
+    border-radius: 20px;
+}
+.espaco{
+    display: flex;
+    flex-direction: row;
+}
+.commun{
+    margin-right: 500px;
+}
+/*
+   CENTRO IMG + TEXTO 
+*/
+.grow{
+    width: 100px;
+}   
+.backGrow{
+    background: url(images/bg-section-top-desktop-1.svg) no-repeat top;
+    width: 100%;
+    height: 139px;
+}
+.bottomGrow{
+    background: url(images/bg-section-bottom-desktop-1.svg) no-repeat bottom;
+    width: 100%;
+    height: 139px;
+}
+.foto{
+    width: 500px;
+}
+.fundo{
+    background: hsl(207, 100%, 98%);
+    padding-left: 100px;
+}
+.backYour{
+    background: url(images/bg-section-top-desktop-2.svg) no-repeat top;
+    width: 100%;
+    height: 139px;
+}
+.bottomYour{
+    background: url(images/bg-section-bottom-desktop-2.svg) no-repeat;
+    width: 100%;
+    height: 139px;
+}
+#center{
+    display: none;
+}
+
+/*
+   FIM CENTRO IMG + TEXTO
+*/
+
+/*
+  Ready
+*/
+ .get{
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+}
+.get:hover{
+    background-color: hsl(321, 100%, 78%);
+}
+
+/*
+   Footer
+*/
+
+
+footer .top{
+    background: url(images/bg-footer-top-desktop.svg) no-repeat top;
+    width: 100%;
+    height: 150px;
+}
+footer .row{
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+}
+footer h3{
+    padding-left: 50px;
+    background: url(images/icon-messages.svg) no-repeat left;
+}
+footer span{
+    margin-right: 10px;
+}
+/**/
+.dnone{
+    display: none;
+}
+.dnon{
+    display: block;
+}
+#app span{
+    color: red;
+}
+@media (max-width: 767.98px) {
+    .espaco{
+        display: flex;
+        flex-direction: column;
+        margin-left: 200px;
+    }
+    #imgCentro{
+        display: none;
+    }
+    #center{
+        display: block;
+    }
+    footer .footer{
+        text-align: center;
+    }
+    .footer p{
+        width: 70%;
+        padding-left: 90px;
+    }
+    .flow{
+        padding-left: 90px;
+    }
+    .foto{
+        width: 195px;
+    }
+    .espaco div p{
+        font-size: 5px;
+    }
+    .textoTopo{
+        width: 50%;
+        margin: 0 auto;
+    }
+ }
+
+
+

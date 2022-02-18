@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="estilo.css">
+
+  <!--font Awesome-->
+  <script src="https://kit.fontawesome.com/467c9f85b7.js" crossorigin="anonymous"></script>
+
+  <!-- production version, optimized for size and speed -->
+  <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+  
+  <title>Frontend Mentor | Huddle landing page with curved sections</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+
+<body>
+ <div class="container-fluid-sm"><!--inicio Div Container-->
+
+  <header class="d-flex justify-content-between">
+
+    <img  src="images/logo.svg" alt="imagem _logo_huddle">
+     
+    <button type="button" class="btn btn-outline-danger mr-4">Try it free</button>
+  </header>
+
+ <div class="row justify-content-md-center mt-5"><!--inicio Row-->
+
+    <div class="col-md-12 text-center mt-5">
+      <h1>Build The Community Your Fans Will Love</h1>      
+    </div>
+    <div class=" text-md-center col-sm-12 col-md-4 mt-3 textoTopo">
+      <p>
+        Huddle re-imagines the way we build communities. You have a voice, but so does 
+        your audience. Create connections with your users as you engage in genuine discussion. 
+      </p>
+
+      <button type="button" class="btn get butao btn-lg mt-3 mb-5"> Get Started For Free</button>
+    </div>  
+
+    <div id="imgCentro" class="col-md-12 mt-5 mb-5"></div><!--Imagem de Centro-->
+
+    <!--imagem aparece a partir de 700px-->
+    <div id="center">
+       <img src="images/screen-mockups.svg" width="400px" alt="imagem do centro">
+    </div>
+   
+    
+   <div class="espaco">
+
+     <div class="commun">
+      <img src="images/icon-communities.svg" alt="community"> 
+      <h2 class="display-md-3">1.4k+</h2>
+      <p>Communities Formed</p>
+     </div> 
+
+      <div>
+      <img src="images/icon-messages.svg" alt="messages"> 
+      <h2 class="display-md-3">2.7m+</h2>
+      <p>Messages Sent</p>
+      </div>
+    </div>
+  
+  
+  </div><!--Fim Row Pricipal-->
+
+  <!--Centro Img e Textos-->
+
+    <div class="row  mt-5"> <!--Row Secundaria-->
+  <!--Primeira Parte abaixo Do header--> 
+   <div class="backGrow"></div>
+      <div class="row  fundo">
+          <div class="col-md-5 order-sm-2 order-md-2 my-auto text text-sm-center text-md-left">
+          
+          <h2>Grow Together</h2>
+
+          <p>Generate meaningful discussions with your audience and build a strong, loyal community. 
+              Think of the insightful conversations you miss out on with a feedback form. </p>
+          </div>
+          
+          <div class="col-md-5 ml-4 mt-5 mb-5 order-sm-1 order-md-2" class="grow">
+            <img src="images/illustration-grow-together.svg" alt="foto_para_ilustraçâo" class="foto">
+          </div>
+      </div> 
+   <div class="bottomGrow"></div>
+  <!--Fim Da Primeira Parte-->    
+ 
+  <!--Segunda Imgem Com Texto-->
+      <div class="ml-5 pl-4 col-md-5 mt-5 mb-5" class="grow">
+        <img src="images/illustration-flowing-conversation.svg"  alt="foto_meramente ilustrativa" class="foto">
+      </div>
+      
+      <div class=" col-md-5 my-auto ml-4 text-sm-center text-md-right flow"> 
+       <h2>Flowing Conversations</h2>
+       <p>
+        You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
+        just-in-time loading for a more natural flow.
+       </p> 
+      </div>
+  <!--Fim da Second-->
+ 
+  <!--Inicio da terCeira Imagem Texto-->
+   <div class="backYour"></div>
+    <div class="row  fundo">
+      <div class="col-md-5 my-auto mr-3 text-sm-center text-md-left">
+        <h2>Your Users</h2>
+        <p>
+          It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
+          once signed in to your app, your users can start chatting immediately.
+        </p> 
+      </div>
+
+      <div class="col-md-5 mb-5 mt-5 ml-5" class="grow">
+        <img src="images/illustration-your-users.svg" alt="pessoas_discutindo" class="foto">
+      </div>
+    </div>
+   <div class="bottomYour"></div>    
+  <!--Fim da Terceira Imagem ddo texto-->
+
+    <!--Inicio do Ready-->
+      <div class="col-md-12  text-center mt-5 mb-5">
+       <h2>Ready To Build Your Community?</h2>
+        <button type="button" class="btn get btn-lg mt-3">Get Started For Free</button>
+      </div>
+    
+  <!--Fim do Centro Img + Textos-->  
+
+      <footer class="mt-5">
+
+        <div class="top"></div>
+
+        <div class="row justify-content-around text-md-left text-sm-center pt-4">
+          <div class="col-md-4 footer"> 
+            <h3>Huddle</h3>
+            <p> 
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
+              vestibulum a, ultrices quis sem.
+            </p> 
+            
+            <p>
+              <span><i class="fas fa-phone-volume"></i></span>
+              Phone:<a href="+1-543-123-4567"> +1-543-123-4567</a>
+            </p>
+              
+          <p>
+            <span><i class="fas fa-envelope"></i></span>
+            example@huddle.com
+          </p>
+
+          <span><i class="fab fa-facebook-square"></i></span>
+          <span><i class="fab fa-instagram-square"></i></span>
+          <span><i class="fab fa-twitter"></i></span>
+          </div>
+
+          <div class="col-md-4 w-50" id="app">
+
+           <h4>Newsletter</h4>
+           <p> 
+              To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
+              send you spam or pass on your email address
+           </p>
+            <input v-model:value="vazio" type="email" name="Sub" placeholder="digite um email Valido" required> <button @click="clique" class="btn btn-danger">Subscribe</button><br>
+            <span v-show="dados == true">Digite um email Valido</span><br>
+            <span class="dnone" id="span">Está faltando um @</span>
+          </div>  
+        </div>     
+      </footer> 
+  </div><!--fim Row seCundaria-->
+
+</div> <!--Fim Div Container-->
+
+  <script>
+       new Vue({
+         el: '#app',
+         data(){
+            return{
+              vazio: '',
+              dados: false
+            }
+            
+         },
+         methods:{
+           clique(){
+              if(this.vazio.indexOf('@') == -1){
+
+               let aparecer = document.getElementById('span')
+
+               aparecer.className = 'dnon'
+             }              
+             if(this.vazio == ''){
+                return this.dados = true;
+             }                         
+           }
+         }
+       })
+  </script>
+</body>
+</html>
